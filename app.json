@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "name": "blogconsumer",
+    "description": "app description",
+    "privacy": "public",
+    "version": "1.0.0"
+  }
+}
