@@ -5,7 +5,7 @@ import ModalView from './ModalView';
 export default class BlogItem extends Component {
 
     _onPress = () => {
-        console.log("hola");
+        alert("Coming Soon")
     };
 
     render() {
