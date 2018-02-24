@@ -9,6 +9,7 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <BlogConsumer />
+        <ModalView />
       </View>
     );
   }
@@ -19,7 +20,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center', 
+    justifyContent: 'center',
     backgroundColor: '#33adff'
   },
 });

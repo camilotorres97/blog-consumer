@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Modal, StyleSheet, Text, View } from 'react-native';
+import BottomImage from './BottomImage';
 
 export default class ModalView extends Component {
 
@@ -28,7 +29,9 @@ export default class ModalView extends Component {
                 >
                     <View style={styles.modalContainer}>
                         <View style={styles.innerContainer}>
-                            <Text>React Native! JCT</Text>
+                            <Text>Developed by Juan Torres.</Text>
+                            <Text>Por favor pulse la tecla atrás</Text>
+                            <BottomImage />
                         </View>
                     </View>
                 </Modal>
