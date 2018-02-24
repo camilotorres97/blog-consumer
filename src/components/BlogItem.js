@@ -4,14 +4,14 @@ import ModalView from './ModalView';
 
 export default class BlogItem extends Component {
 
-    _onPress() {
-        alert("Coming Soon");
-    }
+    _onPress = () => {
+        console.log("hola");
+    };
 
     render() {
         const textColor = this.props.selected ? "red" : "black";
         return (
-            <TouchableOpacity onPress={this._onPress()}>
+            <TouchableOpacity onPress={this._onPress}>
                 <View style={styles.rectangle}>
                     <Text style={styles.container}>
                         {this.props.title}
